@@ -1,7 +1,9 @@
-const Container = ({ children, className }) => {
+const Container = ({ children, className, id }) => {
   return (
     <>
-      <div className={`w-full px-40 ${className}`}>{children}</div>
+      <div className={`w-full px-40 ${className}`} id={id}>
+        {children}
+      </div>
     </>
   );
 };

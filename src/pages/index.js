@@ -68,7 +68,7 @@ export default function Home() {
         </div>
       </Container>
       <Container className={"flex justify-center flex-col items-center"}>
-        <div className="w-full flex flex-col text-center p-8">
+        <div className="w-full flex flex-col text-center p-8" id="experience">
           <h1 className="text-slate-600">Explore My</h1>
           <h1 className="text-4xl font-bold">Experience</h1>
         </div>
@@ -101,7 +101,7 @@ export default function Home() {
           </Card>
         </div>
       </Container>
-      <Container>
+      <Container id={"project"}>
         <div className="w-full flex flex-col text-center p-8 mt-10">
           <h1 className="text-slate-600">Browse My</h1>
           <h1 className="text-4xl font-bold">Projects</h1>
@@ -137,7 +137,7 @@ export default function Home() {
           </Card>
         </div>
       </Container>
-      <Container>
+      <Container id={"contact"}>
         <div className="w-full flex flex-col text-center p-8 mt-10">
           <h1 className="text-slate-600">Get In Touch</h1>
           <h1 className="text-4xl font-bold">Contact Me</h1>
